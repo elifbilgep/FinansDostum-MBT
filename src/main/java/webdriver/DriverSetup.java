@@ -14,17 +14,18 @@ public class DriverSetup {
     String appiumServerPort = readProperties.getProp("appiumServerPort");
 
     public IOSDriver getIOSDriver(String deviceName, String udid, String bundleId, boolean noReset) throws MalformedURLException {
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("platformName", "iOS");
-        capabilities.setCapability("deviceName", deviceName);
-        capabilities.setCapability("udid", udid);
+        capabilities.setCapability("platformVersion", "18.0");
+        capabilities.setCapability("deviceName", "iPhone 16 Pro Max");
+        capabilities.setCapability("udid","417A7383-3C5A-4CE8-A8CC-F2C1BA4C576E");
         capabilities.setCapability("automationName", "XCUITest");
         capabilities.setCapability("app", "/Users/elifparlak/Library/Developer/Xcode/DerivedData/FinansDostu-dsxsswxfuouvdygxhbqduoxlybfk/Build/Products/Debug-iphonesimulator/FinansDostu.app");
         capabilities.setCapability("noReset", noReset);
-        String url = "http://" + appiumServerIpAddress + ":" + appiumServerPort + "/wd/hub";
+        capabilities.setCapability("bundleId", "com.tunaarikaya.FinansDostu"); // 🔥 eksik olan bu
 
-        return new IOSDriver(new URL(url), capabilities);
+        IOSDriver driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        return driver;
     }
 }

@@ -1,2 +1,208 @@
-{"models":[{"edges":[{"id":"d6614fea-69bc-45c6-9d8e-8718f4d68fea","name":"e_ClickAddIncome","sourceVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7","targetVertexId":"239ead3e-f78f-4883-9b1a-6d6544c857c8"},{"id":"6505e81b-2d62-430b-9a8d-fc0059a09d59","name":"e_CancelIncome","sourceVertexId":"239ead3e-f78f-4883-9b1a-6d6544c857c8","targetVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7"},{"id":"157800e4-7a24-450c-8151-ec617d95443e","name":"e_FillIncomeAmountField","sourceVertexId":"239ead3e-f78f-4883-9b1a-6d6544c857c8","targetVertexId":"eaeea389-7e14-42a6-83f4-e709284fdcf3"},{"id":"5fa8d5e4-8bb8-4615-be88-1b3def4ef6a9","name":"e_TypeIncomeTitle","sourceVertexId":"eaeea389-7e14-42a6-83f4-e709284fdcf3","targetVertexId":"c0ee6d03-3c28-4821-a9b8-b8ac18d2f093"},{"id":"884bc14c-a506-4569-acda-ed9e7a63d6ee","name":"e_SelectIncomeType","sourceVertexId":"c0ee6d03-3c28-4821-a9b8-b8ac18d2f093","targetVertexId":"c1e7375f-ddf5-4181-9d66-a4ebfe0f3682"},{"id":"46d77ea3-92e0-4f2f-873a-55a2d02c587a","name":"e_ClickedAddExpenseButton","sourceVertexId":"239ead3e-f78f-4883-9b1a-6d6544c857c8","targetVertexId":"60422898-1fff-4e25-b75f-9235cfc78d68"},{"id":"356afb01-368d-4fe6-834f-bf93b2a1c696","name":"e_ClickedAddIncomeButton","sourceVertexId":"60422898-1fff-4e25-b75f-9235cfc78d68","targetVertexId":"239ead3e-f78f-4883-9b1a-6d6544c857c8"},{"id":"a2b76b98-85bc-4071-a19f-a976d2096b73","name":"e_IncomeSaved","sourceVertexId":"c1e7375f-ddf5-4181-9d66-a4ebfe0f3682","targetVertexId":"79bb7870-f442-4ff3-b8e1-0b6c36903bba"},{"id":"14296ea7-afee-46bc-b018-6b257207ab5b","name":"e_UpdateBalance","sourceVertexId":"79bb7870-f442-4ff3-b8e1-0b6c36903bba","targetVertexId":"e5e653a3-c366-44af-9de5-119d932c8ae2"},{"id":"c0bf6cda-0de4-46ca-9208-7b91b5c962ca","name":"e_BackToHome","sourceVertexId":"e5e653a3-c366-44af-9de5-119d932c8ae2","targetVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7"},{"id":"16bb18bd-72c6-495e-8a82-8dfe206747e9","name":"e_AmountCleaned","sourceVertexId":"eaeea389-7e14-42a6-83f4-e709284fdcf3","targetVertexId":"aa4b9404-523d-4779-bf74-c6964ee2d5bf"},{"id":"5e569085-d787-4e26-839c-1adf3e2c6a0f","name":"e_FillIncomeAmountField","sourceVertexId":"aa4b9404-523d-4779-bf74-c6964ee2d5bf","targetVertexId":"eaeea389-7e14-42a6-83f4-e709284fdcf3"},{"id":"55fcab6d-65bd-4091-8436-e366ebf1069a","name":"e_CancelIncome","sourceVertexId":"eaeea389-7e14-42a6-83f4-e709284fdcf3","targetVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7"},{"id":"c0354b86-5d31-4273-a0b4-fb8b5780dd5f","name":"e_CancelIncome","sourceVertexId":"c0ee6d03-3c28-4821-a9b8-b8ac18d2f093","targetVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7"},{"id":"75f8d492-3abb-41ac-b2eb-8b1e54654045","name":"e_CancelIncome","sourceVertexId":"c1e7375f-ddf5-4181-9d66-a4ebfe0f3682","targetVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7"},{"id":"6c9770ba-97f7-45d3-bf77-a695d983c033","name":"e_CancelIncome","sourceVertexId":"aa4b9404-523d-4779-bf74-c6964ee2d5bf","targetVertexId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7"}],"generator":"random(edge_coverage(100))","id":"4075c6f6-639c-4e12-9827-edc14f53c38e","name":"AddIncome",
-  "startElementId":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7","vertices":[{"id":"e2b01dee-f4b0-444d-bb7f-5c541ab5dcf7","name":"v_Home","properties":{"x":919.1318402751526,"y":505.5425316741146}},{"id":"239ead3e-f78f-4883-9b1a-6d6544c857c8","name":"v_IncomeSheetOpened","properties":{"x":917.5585515272967,"y":-8.351055128833968}},{"id":"eaeea389-7e14-42a6-83f4-e709284fdcf3","name":"v_IncomeAmountFieldFilled","properties":{"x":1465.352522588689,"y":258.45347459373403}},{"id":"e5e653a3-c366-44af-9de5-119d932c8ae2","name":"v_BalanceUpdated","properties":{"x":922.6772182132712,"y":724.6325777458638}},{"id":"c0ee6d03-3c28-4821-a9b8-b8ac18d2f093","name":"v_IncomeTitleWritten","properties":{"x":1826.9397120631863,"y":264.52098743208654}},{"id":"c1e7375f-ddf5-4181-9d66-a4ebfe0f3682","name":"v_TagSelected","properties":{"x":2174.879385876726,"y":262.6696013567089}},{"id":"60422898-1fff-4e25-b75f-9235cfc78d68","name":"v_ExpenseSheetOpened","properties":{"x":924.224405952583,"y":-300.2326108412069}},{"id":"79bb7870-f442-4ff3-b8e1-0b6c36903bba","name":"v_IncomeSaved","properties":{"x":1691.347191693728,"y":722.4223833286547}},{"id":"aa4b9404-523d-4779-bf74-c6964ee2d5bf","name":"v_CleanedAmountField","properties":{"x":1464.1239799995471,"y":-87.88605453785524}}]}],"selectedModelIndex":0,"selectedElementId":null}
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "93fcec8f-b7a3-4a87-b2af-56d8a865a9ff",
+          "name": "e_ClickAddButton",
+          "sourceVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56",
+          "targetVertexId": "e1fb6c6c-7863-4b5d-b8da-d895cae0fa16"
+        },
+        {
+          "id": "258eea79-3087-4096-b77f-5c627481d121",
+          "name": "e_CancelIncome",
+          "sourceVertexId": "e1fb6c6c-7863-4b5d-b8da-d895cae0fa16",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "cb6f38d9-80ee-405a-90e3-70249ae8a2c4",
+          "name": "e_SwitchToExpense",
+          "sourceVertexId": "e1fb6c6c-7863-4b5d-b8da-d895cae0fa16",
+          "targetVertexId": "2f676b9f-de5b-4bef-bd93-728bc3d90097"
+        },
+        {
+          "id": "528c4124-eff8-4f52-9583-2354f48c1346",
+          "name": "e_SwitchToIncome",
+          "sourceVertexId": "2f676b9f-de5b-4bef-bd93-728bc3d90097",
+          "targetVertexId": "e1fb6c6c-7863-4b5d-b8da-d895cae0fa16"
+        },
+        {
+          "id": "49520a6d-9410-49ed-8cbe-338bdd6e827b",
+          "name": "e_CancelIncome",
+          "sourceVertexId": "2f676b9f-de5b-4bef-bd93-728bc3d90097",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "efb0278e-d0d4-43dd-911d-3ff943c5ead3",
+          "name": "e_FillIncomeAmountField",
+          "sourceVertexId": "e1fb6c6c-7863-4b5d-b8da-d895cae0fa16",
+          "targetVertexId": "c3a25c53-3677-4dcf-9c5e-7ad3d8983477"
+        },
+        {
+          "id": "1664ffe7-dbae-44a0-9d8d-24763a3d6836",
+          "name": "e_CancelIncome",
+          "sourceVertexId": "c3a25c53-3677-4dcf-9c5e-7ad3d8983477",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "901432e9-caaa-4011-be68-108870a3b6d1",
+          "name": "e_FillIncomeAmountField",
+          "sourceVertexId": "c9d4605a-2825-4350-8564-d1f98616ce73",
+          "targetVertexId": "c3a25c53-3677-4dcf-9c5e-7ad3d8983477"
+        },
+        {
+          "id": "9a159a84-5d8d-4fb0-b47d-124ca0693185",
+          "name": "e_CleanIncomeAmount",
+          "sourceVertexId": "c3a25c53-3677-4dcf-9c5e-7ad3d8983477",
+          "targetVertexId": "c9d4605a-2825-4350-8564-d1f98616ce73"
+        },
+        {
+          "id": "019e8699-2c74-4ac1-90d1-34335afe9813",
+          "name": "e_Cancelncome",
+          "sourceVertexId": "c9d4605a-2825-4350-8564-d1f98616ce73",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "dea68b3b-0855-4a10-a5f4-88ee36e27a76",
+          "name": "e_SelectIncomeType",
+          "sourceVertexId": "9259ef3b-4b0c-43c7-b8fa-2d1910184d92",
+          "targetVertexId": "830b77fc-5b8d-45ee-b220-9e6b501e87d5"
+        },
+        {
+          "id": "69b065b0-4b83-4d0e-b709-ffcc63cfaa44",
+          "name": "e_CancelIncome",
+          "sourceVertexId": "830b77fc-5b8d-45ee-b220-9e6b501e87d5",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "82a80ef9-0cc7-4ce5-ab24-164d0bb342b0",
+          "name": "e_TypeIncomeTitle",
+          "sourceVertexId": "c3a25c53-3677-4dcf-9c5e-7ad3d8983477",
+          "targetVertexId": "9259ef3b-4b0c-43c7-b8fa-2d1910184d92"
+        },
+        {
+          "id": "40c4fb9a-2b93-4fe6-bd16-059d70dd36a7",
+          "name": "e_AddNote",
+          "sourceVertexId": "830b77fc-5b8d-45ee-b220-9e6b501e87d5",
+          "targetVertexId": "348f0574-f955-4b1a-bbd7-bcb3fa1a5f7e"
+        },
+        {
+          "id": "3d570ecf-2de4-4128-bffc-e6f714575835",
+          "name": "e_AddNote",
+          "sourceVertexId": "9259ef3b-4b0c-43c7-b8fa-2d1910184d92",
+          "targetVertexId": "348f0574-f955-4b1a-bbd7-bcb3fa1a5f7e"
+        },
+        {
+          "id": "11eebbc9-1253-482d-801d-6bc10e20f368",
+          "name": "e_SaveIncome",
+          "sourceVertexId": "9259ef3b-4b0c-43c7-b8fa-2d1910184d92",
+          "targetVertexId": "8ba2ec7d-523e-459d-bcd4-d3e76b17c111"
+        },
+        {
+          "id": "2a432d73-7714-4b4f-8a9d-6702d69bfe81",
+          "name": "e_SaveIncome",
+          "sourceVertexId": "348f0574-f955-4b1a-bbd7-bcb3fa1a5f7e",
+          "targetVertexId": "8ba2ec7d-523e-459d-bcd4-d3e76b17c111"
+        },
+        {
+          "id": "8b3ce3a7-fd19-4108-9aa4-4ace47bca520",
+          "name": "e_SystemRedirect",
+          "sourceVertexId": "8ba2ec7d-523e-459d-bcd4-d3e76b17c111",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "a8270df1-6af3-4c39-852a-95bad4ee485c",
+          "name": "e_CancelIncome",
+          "sourceVertexId": "348f0574-f955-4b1a-bbd7-bcb3fa1a5f7e",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        },
+        {
+          "id": "7f54a5f1-8964-4cbd-b10c-6f4c48746626",
+          "name": "e_CancelIncome",
+          "sourceVertexId": "9259ef3b-4b0c-43c7-b8fa-2d1910184d92",
+          "targetVertexId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "3de2b028-5e67-4aa9-8288-1116c2865419",
+      "name": "AddIncome",
+      "startElementId": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56",
+      "vertices": [
+        {
+          "id": "5bbdefba-9a63-4a5e-a157-2cd1a4131e56",
+          "name": "v_Home",
+          "properties": {
+            "x": 228.0506305898296,
+            "y": 298.2115700861973
+          }
+        },
+        {
+          "id": "e1fb6c6c-7863-4b5d-b8da-d895cae0fa16",
+          "name": "v_IncomeSheetOpened",
+          "properties": {
+            "x": -179.16846726821188,
+            "y": 274.36500996635914
+          }
+        },
+        {
+          "id": "2f676b9f-de5b-4bef-bd93-728bc3d90097",
+          "name": "v_ExpenseSheetOpened",
+          "properties": {
+            "x": -182.13175041971954,
+            "y": 623.9935207721572
+          }
+        },
+        {
+          "id": "c3a25c53-3677-4dcf-9c5e-7ad3d8983477",
+          "name": "v_IncomeAmountFieldFilled",
+          "properties": {
+            "x": 198.47852483431544,
+            "y": -6.684628212838822
+          }
+        },
+        {
+          "id": "c9d4605a-2825-4350-8564-d1f98616ce73",
+          "name": "v_CleanedAmountFielde",
+          "properties": {
+            "x": 582.8441033022251,
+            "y": 275.46822872403635
+          }
+        },
+        {
+          "id": "830b77fc-5b8d-45ee-b220-9e6b501e87d5",
+          "name": "v_TagSelected",
+          "properties": {
+            "x": 894.4361514248332,
+            "y": 165.81918962622746
+          }
+        },
+        {
+          "id": "348f0574-f955-4b1a-bbd7-bcb3fa1a5f7e",
+          "name": "v_NoteAdded",
+          "properties": {
+            "x": 915.0918458307137,
+            "y": 726.3199406378312
+          }
+        },
+        {
+          "id": "9259ef3b-4b0c-43c7-b8fa-2d1910184d92",
+          "name": "v_IncomeTitleWritten",
+          "properties": {
+            "x": 16.605023595416167,
+            "y": 1010.3968233142006
+          }
+        },
+        {
+          "id": "8ba2ec7d-523e-459d-bcd4-d3e76b17c111",
+          "name": "v_IncomeSaved",
+          "properties": {
+            "x": 687.7196938266682,
+            "y": 995.6159700235478
+          }
+        }
+      ]
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": "93fcec8f-b7a3-4a87-b2af-56d8a865a9ff"
+}
